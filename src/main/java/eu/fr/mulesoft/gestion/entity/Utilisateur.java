@@ -38,6 +38,11 @@ public class Utilisateur {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
+
+	@Override
+	public String toString() {
+		return "Utilisateur [matricule=" + matricule + ", nom=" + nom + ", prenom=" + prenom + "]";
+	}
 	
 	
 }
